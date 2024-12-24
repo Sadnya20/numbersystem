@@ -10,4 +10,22 @@ for (let i=2;i<=Math.sqrt(numbers); i++){
         return false;
     }
 }
+return false;
 }  
+
+function  prime(limit){
+    const PrimeArray=[];
+    for let (num of numbers){
+        if (prime(num){
+            PrimeArray.push(num)
+        }
+    }
+    return PrimeArray;
+}
+
+const MAXIMUM=max(PrimeArray);
+console.log(MAXIMUM);
+const minimum=min(PrimeArray);
+console.log(minimum);
+const SUMM= PrimeArray.reduce((acc,num)=>acc+num,o);
+console.log(SUMM)
